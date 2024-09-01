@@ -1,6 +1,6 @@
-# FastAPI Prediction Service
+# FastAPI Customer Prediction Service
 
-This repository contains a FastAPI-based web service for making predictions using a pre-trained machine learning model for classification of customers. The service is designed to handle transaction data, preprocess it, and return a prediction (whether customer will repeat transaction within 2 months or not) based on the provided features.
+This repository contains a FastAPI-based web service for making predictions using a pre-trained machine learning model for classification of customers anlongside model training notebook (model_training.ipynb). The service is designed to handle transaction data, preprocess it, and return a prediction (whether customer will repeat transaction within 2 months or not) based on the provided features.
 
 ## Features
 
