@@ -106,11 +106,13 @@ The API will be available at `http://classifier-customer.eu-central-1.elasticbea
     "Individual_Price_USD": 10,
     "Quantity": 1
 }'
-    ```
+ ```
+
 
 Output:
+
 ```bash
    {
     "prediction": 0
 }
-    ```
+```
