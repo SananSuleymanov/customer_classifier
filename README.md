@@ -19,8 +19,8 @@ This repository contains a FastAPI-based web service for making predictions usin
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/yourusername/yourrepository.git
-    cd yourrepository
+    git clone https://github.com/SananSuleymanov/customer_classifier.git
+    cd customer_classifier
     ```
 
 2. **Create and activate a virtual environment (optional but recommended)**:
