@@ -84,3 +84,33 @@ The API will be available at `http://classifier-customer.eu-central-1.elasticbea
       "Individual_Price_USD": float,
       "Quantity": int
   }
+
+
+### Example Request
+ ```bash
+    curl -X 'POST' \
+  'http://classifier-customer.eu-central-1.elasticbeanstalk.com/predict' \
+  -H 'Content-Type: application/json' \
+  -d '{
+    "Product": "Hair Band",
+    "Gender": "Female",
+    "Device_Type": "Web",
+    "Country": "United States",
+    "State": "New York",
+    "City": "New York City",
+    "Category": "Accessories",
+    "Customer_Login_type": "Member",
+    "Delivery_Type": "one-day deliver",
+    "Transaction_Result": 1,
+    "Amount_USD": 100,
+    "Individual_Price_USD": 10,
+    "Quantity": 1
+}'
+    ```
+
+Output:
+```bash
+   {
+    "prediction": 0
+}
+    ```
