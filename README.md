@@ -55,6 +55,10 @@ This repository contains a FastAPI-based web service for making predictions usin
 
     The API will be available at `http://127.0.0.1:8000`.
 
+### Running with AWS Elastic Beanstalk endpoint
+
+The API will be available at `http://127.0.0.1:8000](http://classifier-customer.eu-central-1.elasticbeanstalk.com/`.
+
 ## Usage
 
 ### Prediction Endpoint
