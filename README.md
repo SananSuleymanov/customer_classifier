@@ -23,7 +23,7 @@ This repository contains a FastAPI-based web service for making predictions usin
     cd customer_classifier
     ```
 
-2. **Create and activate a virtual environment (optional but recommended)**:
+2. **Create and activate a virtual environment**:
     ```bash
     python3 -m venv env
     source env/bin/activate
