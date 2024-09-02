@@ -10,8 +10,8 @@ This repository contains a FastAPI-based web service for making predictions usin
 
 ## Prerequisites
 
-- Docker (for containerized deployment)
-- Python 3.9+ (if running locally)
+- Docker 
+- Python 3.9+ 
 
 ## Installation
 
